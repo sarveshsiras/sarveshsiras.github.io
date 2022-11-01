@@ -1,10 +1,10 @@
+
 (function() {
   'use strict'
 
   var keyCounter = 0
   var allWaypoints = {}
 
-  /* http://imakewebthings.com/waypoints/api/waypoint */
   function Waypoint(options) {
     if (!options) {
       throw new Error('No options passed to Waypoint constructor')
